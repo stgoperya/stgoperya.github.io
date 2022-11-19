@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Go Perya KHM</title>
+    <title>GoPerya Staging</title>
     
     <meta name="title" content="GoPerya">
     <meta name="description" content="Piso Talpak! Mabilis na cash-in at payout!">
@@ -169,15 +169,15 @@
             {
                 name: "GoPerya.Net",
                 domain: "goperya.net",
-                url: "https://goperya.net",
+                url: "http://st.goperya.net",
                 redirectUrl: "",
                 health_check: {
                     api: {
-                        url: "https://goperya.net/health",
+                        url: "http://st.goperya.net/health",
                         status: 0
                     },
                     static: {
-                        url: "https://static.goperya.net/health.htm",
+                        url: " http://st.goperya.net/health.htm",
                         status: 0
                     }
                 }
@@ -185,15 +185,15 @@
             {
                 name: "GoPerya.com",
                 domain: "goperya.com",
-                url: "https://goperya.com",
+                url: " http://st.goperya.net",
                 redirectUrl: "",
                 health_check: {
                     api: {
-                        url: "https://goperya.com/health",
+                        url: " http://st.goperya.net/health",
                         status: 0
                     },
                     static: {
-                        url: "https://static3.goperya.com/health.htm",
+                        url: " http://st.goperya.net/health.htm",
                         status: 0
                     }
                 }
@@ -229,7 +229,7 @@
 
                 storedDomain: null,
                 firstAvailableDomain: null,
-                localStorageKey: 'last_used_domain_gp2'
+                localStorageKey: 'last_used_domain_gp3'
             },
             mounted(){
                 this.changeStatus(this.statusMessages.init, 0);
