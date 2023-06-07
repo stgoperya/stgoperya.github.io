@@ -181,22 +181,6 @@
                         status: 0
                     }
                 }
-            },
-           {
-                name: "PlayPerya",
-                domain: "st.playperya.com",
-                url: "https://st.playperya.com",
-                redirectUrl: "",
-                health_check: {
-                    api: {
-                        url: "https://st.playperya.com/health",
-                        status: 0
-                    },
-                    static: {
-                        url: "https://st.playperya.com/health.htm",
-                        status: 0
-                    }
-                }
             }
         ]
     </script>
@@ -229,7 +213,7 @@
 
                 storedDomain: null,
                 firstAvailableDomain: null,
-                localStorageKey: 'last_used_domain_gp_20230608_2'
+                localStorageKey: 'last_used_domain_gp_20230608_3'
             },
             mounted(){
                 this.changeStatus(this.statusMessages.init, 0);
